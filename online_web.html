@@ -1,10 +1,70 @@
 <<!DOCTYPE html>
 <html lang="ar" dir="rtl">
   <head>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
     <meta charset="utf-8">
     <title></title>
+    <style>
+#menu_up{
+  margin-right: 150px;
+}
+#main_img{
+  width: inherit;
+}
+h1{
+    position: absolute;
+    color: white;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+    </style>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <a class="navbar-brand" href="#">مسار</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+       data-target="#navbarNav" aria-controls="navbarNav"
+       aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav" id="menu_up">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">الرئيسية <span class="sr-only">
+              (current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">تسوق</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">نبذة عنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">المهام</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">تواصل معنا</a>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1"
+            aria-disabled="true">تسجيل الدخول</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="grid row">
+<div class="grid col col-12-md">
+  <div class="col">
+<img id="main_img"src="food-restaurant-Sweden.jpg"/><h1>Hello World</h1>
+
+  </div>
+</div>
+</div>
+</div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
   </body>
 </html>
